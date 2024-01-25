@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #E2E2E2;
+}
+
+/* Global */
+
+.hidden {
+    display: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+header img {
+    width: 30%;
+    max-width: 150px;
+}
+
+header i {
+    font-size: 1.5rem;  
+}
+
+/* Section */
+
+section {
+    text-align: center;
+    margin-top: 1em;
+}
+
+#collection {
+    margin-top: 1em;
+}
+
+.merch{
+    margin: 0 2em 1em 2em;
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
+/* Hovber */
+
+.merch:hover {
+    background-color: rebeccapurple;
+    opacity: 0.9;
+}
+
+header #fa-caret-left:hover {
+    position: relative;
+    animation: moveLeft 1s none;
+    animation-fill-mode: forwards; 
+}
+
